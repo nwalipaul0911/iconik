@@ -1,0 +1,27 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.theme-color{
+  color: rgb(168, 78, 4)
+}
+body{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+.sections{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/low-angle-shot-coconut-trees-against-blue-sky-with-sun-shining-through-trees.jpg');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+input[type="file"]{
+
+  border: none;
+  outline: none;
+}
+.grayscale{
+  filter: grayscale(100%);
+}
+
